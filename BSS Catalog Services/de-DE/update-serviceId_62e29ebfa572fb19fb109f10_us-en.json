@@ -1,0 +1,394 @@
+{
+  "smartling" : {
+    "translate_paths" : [
+    {
+      "path" : "*/serviceName",
+      "key" : "*/serviceName"
+    },
+
+    {
+      "path" : "*/Description",
+      "key" : "*/Description"
+    },
+
+    {
+      "path" : "*/GroupTitle",
+      "key" : "*/GroupTitle"
+    },
+
+    {
+      "path" : "*/Question",
+      "key" : "*/Question"
+    },
+
+    {
+      "path" : "*/Answer1",
+      "key" : "*/Answer1"
+    }],
+    "variants_enabled" : "true"
+  },
+  "service" : {
+    "serviceId" : "62e29ebfa572fb19fb109f10",
+    "serviceName" : "Zertifizierter Container als Service (CCaaS)",
+    "AccountId" : "",
+    "RefIdCode" : "",
+    "AccountName" : "",
+    "LogoRef" : null,
+    "catalog" : {
+      "summary" : {
+        "Description" : "Cloudbasierter Dienst, der sicherheitszertifizierte Container-Images bereitstellt",
+        "Company" : "",
+        "Classifications" : null
+      },
+      "details" : {
+        "Overview" : null,
+        "Benefits" : [],
+        "CustomerStories" : [],
+        "Faqs" : {
+          "Introduction" : "",
+          "faqGroups" : [
+          {
+            "GroupId" : "632bc5bae07d8264521632ef",
+            "ServiceId" : "",
+            "GroupSequence" : 0,
+            "GroupTitle" : "Unterstützung",
+            "Questions" : [
+            {
+              "Question" : "Wen muss ich bei Problemen mit meinem Abonnement kontaktieren?",
+              "Answer" : null,
+              "Answer1" : "Bei Problemen oder Fragen senden Sie eine E-Mail an cloudautomation-support@kyndryl.com."
+            },
+
+            {
+              "Question" : "Wie lange dauert die Bearbeitung von Anfragen und Abonnementproblemen?",
+              "Answer" : null,
+              "Answer1" : "Unter normalen Umständen antwortet der Support von Montag bis Freitag innerhalb von 24 Stunden auf Probleme."
+            }]
+          },
+
+          {
+            "GroupId" : "632be6ace07d8264521b016d",
+            "ServiceId" : "",
+            "GroupSequence" : 0,
+            "GroupTitle" : "Abonnement-Workflow",
+            "Questions" : [
+            {
+              "Question" : "Wie funktioniert der Abonnementablauf und was passiert, wenn ich ein Abonnement abschließe?",
+              "Answer" : null,
+              "Answer1" : "a. Der Kunde nimmt am Kyndryl Bridge-Portal teil und meldet sich dort an.\n B. Der Client klickt, um CCaaS aus dem Katalog zu abonnieren.\nc. Der Kunde wählt das Abonnement der Testversion.\nD. Der Kunde klickt auf die Schaltfläche „Abonnieren“.\ne. Das CCaaS-Team wird sich mit dem Kunden in Verbindung setzen, um ihm die Leistungsbeschreibung für die Testversion per E-Mail mitzuteilen.\nF. Der Kunde muss die Leistungsbeschreibung per E-Mail akzeptieren.\nG. Das CCaaS-Team sendet dem Kunden eine E-Mail mit der Meldung, dass das Abonnement erfolgreich war.\nH. Das CCaaS-Team wird dem Kunden die jeweiligen Docker Hub-Kontoanmeldeinformationen (in separaten E-Mails für Benutzername und Passwort) mitteilen. Der Client kann sich beim Docker Hub-Konto anmelden und die zertifizierten Container-Images herunterladen.\nich. Nachdem der Kunde die Docker Hub-Anmeldeinformationen vom CCaaS-Team erhalten hat, kann er innerhalb der 90-tägigen Testabonnementfrist zertifizierte Container-Images über Kyndryl Bridge bestellen, indem er auf die Schaltfläche „Bestellen“ klickt.\nJ. Der Kunde kann je nach Geschäftsbedarf beliebig oft bestellen"
+            }]
+          },
+
+          {
+            "GroupId" : "632bc5bae07d8264521632e7",
+            "ServiceId" : "",
+            "GroupSequence" : 0,
+            "GroupTitle" : "Produktübersicht",
+            "Questions" : [
+            {
+              "Question" : "Was ist CCaaS?",
+              "Answer" : null,
+              "Answer1" : "Certified Container as a Service (CCaaS) ist ein Dienst zur Bereitstellung sicherheitszertifizierter Container-Images, die von Kunden problemlos zum Hosten ihrer Anwendungen verwendet werden können. Diese Bilder werden mit branchenweit anerkannten Sicherheitsscan-Tools gescannt und auf Abhängigkeiten, Schwachstellen und Codeanalyse getestet."
+            },
+
+            {
+              "Question" : "Was ist ein zertifizierter Container?",
+              "Answer" : null,
+              "Answer1" : "Ein zertifizierter Container erfüllt die Sicherheits- und Industriestandardkriterien des Unternehmens für die Verpackung und Bereitstellung von containerisierter Software zusammen mit Containerplattformintegrationen. Die zertifizierten Container werden von einem Entwicklungsteam als Basis-Images verwendet, um ihre Anwendung für die Bereitstellung auf jeder Containerplattform zu erstellen."
+            },
+
+            {
+              "Question" : "Warum werden zertifizierte Container benötigt?",
+              "Answer" : null,
+              "Answer1" : "Zertifizierte Container werden aus vielen Gründen benötigt, beispielsweise:\n a.Alle Komponenten stammen aus einer vertrauenswürdigen Quelle\n b.Plattformpakete wurden nicht manipuliert\n c. Das Container-Image ist frei von bekannten Schwachstellen\n d.Container ist mit allen Kubernetes-Plattformen kompatibel\n e.Bietet regelmäßige Updates und Support für den gesamten Stack"
+            },
+
+            {
+              "Question" : "Warum werden Kyndryl-zertifizierte Behälter benötigt?",
+              "Answer" : null,
+              "Answer1" : "Zu den wichtigsten Vorteilen von Kyndryl-zertifizierten Behältern gehören:\n Befolgt den Red Hat-Zertifizierungsprozess\n Bietet einen standardisierten und konsistenten automatisierten Prozess zum Erstellen und Validieren zertifizierter Bilder und verkürzt so die Lieferzeit\n Zur Bereitstellung von Standarddiagrammen und zur Einhaltung von Integrationspraktiken (Sicherheit, Protokollierung, Metriken)\n Es passt sich an benutzerdefinierte Clientspezifikationen (technische Daten, Tool-Integrationen) an."
+            },
+
+            {
+              "Question" : "Was ist der Unterschied zwischen Basisbehältern und Kyndryl-zertifizierten Behältern?",
+              "Answer" : null,
+              "Answer1" : "In Basic-Containern verwaltet und investiert der Anwendungsentwickler neben dem Anwendungscode auch in Verwaltungstools, App-Laufzeiten, App-Abhängigkeiten und Helm-Diagramme.\nBei Kyndryl Certified Containers hingegen verwaltet und konzentriert sich der Anwendungsentwickler nur auf den Anwendungscode. Die in dieser Testversion enthaltenen Funktionen werden von Kyndryl konfiguriert."
+            },
+
+            {
+              "Question" : "Wie hoch sind die zu erwartenden Nettoeinsparungen pro Kyndryl-zertifiziertem Behälter?",
+              "Answer" : null,
+              "Answer1" : "Basierend auf den aktuellen Schätzungen können die Kunden im Vergleich zur Eigenentwicklung eine Nettoeinsparung von ungefähr 166,32 % pro Kyndryl-zertifiziertem Behälter erzielen."
+            },
+
+            {
+              "Question" : "Welche zertifizierten Container werden derzeit als Teil von CCaaS bereitgestellt?",
+              "Answer" : null,
+              "Answer1" : "a.Python v3.0 auf RedHat-Basisimage ubi Version 8\n b.Tomcat 9 + OpenJDK v13 auf RedHat-Basis Image ubi-Version\n c.Nodejs v10 basierend auf RedHat-Basisimage ubi Version 8"
+            },
+
+            {
+              "Question" : "Welche zertifizierten Container sind in der Zukunft für die Bereitstellung als Teil von CCaaS vorgesehen?",
+              "Answer" : null,
+              "Answer1" : "a.PostgreSQL\n b.Apache Tomcat v9\n c.WebSphere Liberty\n d.IBM Node.js\n e.Apache Cassandra v3.10"
+            },
+
+            {
+              "Question" : "Wer würde am meisten von der Verwendung von CCaaS profitieren?",
+              "Answer" : null,
+              "Answer1" : "CCaaS wurde für zwei Personengruppen entwickelt: Entwickler und Systemadministratoren\n a.CCaaS erleichtert Entwicklern das Leben, indem es den Aufwand für das Erstellen und Verwalten der sicherheitszertifizierten Container-Images eliminiert. Mit CCaaS können sie sich nur auf die Codierung konzentrieren.\nb. Systemadministratoren, die mit dem zeitintensiven Aufwand verbunden sind, diese Images zu pflegen und darauf Anwendungen bereitzustellen, können von der kontinuierlichen Bereitstellung der aktualisierten, sicherheitszertifizierten Images durch CCaaS profitieren. Dadurch bleibt ihnen mehr Zeit, sich mit der Automatisierung anderer wichtiger Managed Services und SRE-Aktivitäten zu befassen."
+            },
+
+            {
+              "Question" : "Welchen Nutzen hat CCaaS für einen Kunden?",
+              "Answer" : null,
+              "Answer1" : "Kunden können viel Zeit mit dem Erstellen sicherheitszertifizierter Images zum Hosten ihrer Anwendungen verbringen, anstatt an der eigentlichen Entwicklung von Code und Integrationen zu arbeiten. CaaS würde die Reise unserer Kunden in die Cloud durch die Bereitstellung standardmäßiger, sicherheitszertifizierter Bilder beschleunigen und so den Entwicklern mehr Zeit geben, sich auf die Codierung zu konzentrieren. Organisationen oder Unternehmen würden davon profitieren, wenn sie sicherstellen würden, dass Anwendungen unter Verwendung vertrauenswürdiger und sicherer Basis-Images und -Praktiken erstellt werden."
+            },
+
+            {
+              "Question" : "Was ist der Kern von CCaaS?",
+              "Answer" : null,
+              "Answer1" : "Der Kern von CaaS ist eine DevSecOps-Pipeline, die mit branchenüblicher DevOps-Ausrüstung erstellt wurde. Diese Pipeline ist für den Aufbau der Container-Images verantwortlich, nachdem der Code auf Schwachstellen und Sicherheitsmängel gescannt und getestet wurde. Sobald die Bilder erstellt sind, werden sie erneut auf Schwachstellen überprüft. Diese Pipeline wird mithilfe einer API-Schnittstelle bereitgestellt, die problemlos von jeder REST-API-Engine genutzt werden kann. "
+            },
+
+            {
+              "Question" : "Wie häufig werden Bilder aktualisiert?",
+              "Answer" : null,
+              "Answer1" : "Beim Test-/Standardabonnement werden alle drei Typen zertifizierter Container-Images aktualisiert:\n a. Immer wenn neue Schwachstellen identifiziert werden\n B. Immer wenn eine neue Version des Basisimages veröffentlicht wird und\n C. Immer wenn es eine neue Nebenversion für installierte Anwendungen gibt, zum Beispiel Tomcat, JDK\n Für Enterprise- und Premium-Versionen von Certified Container Images,\n a. Basierend auf den Kundenanforderungen."
+            },
+
+            {
+              "Question" : "Was passiert, wenn ein Kunde eine Sicherheitslücke meldet?",
+              "Answer" : null,
+              "Answer1" : "a. Informationen werden vom Kunden eingeholt\n B. Es werden Bewertungen der gemeldeten Schwachstellen durchgeführt.\n C. Nach der Evaluierung werden gegebenenfalls entsprechende Sanierungsmaßnahmen durchgeführt.\n D. Schließlich werden dem Kunden neuere Bilder zur Verfügung gestellt"
+            },
+
+            {
+              "Question" : "Wie kann der Kunde die Berichte der Sicherheitsscans einsehen?",
+              "Answer" : null,
+              "Answer1" : "Derzeit wird das Dokument, das die Sicherheitsscans erfasst, dem Kunden auf dessen ausdrückliche Anfrage nach der Bestellung des zertifizierten Containerbildes per E-Mail zugesandt."
+            },
+
+            {
+              "Question" : "Welche Dokumente erhalte ich im Rahmen meines CCaaS-Abonnements und meiner Bestellung und wie erhalte ich sie?",
+              "Answer" : null,
+              "Answer1" : "Dem Kunden wird per E-Mail eine Leistungsbeschreibung (Statement of Work, SOW) zur Überprüfung und Annahme zugesandt."
+            },
+
+            {
+              "Question" : "Kann ich je nach Bedarf benutzerdefinierte Certified Container Images erhalten?",
+              "Answer" : null,
+              "Answer1" : "Ja. Benutzerdefinierte zertifizierte Bilder können durch Kontaktaufnahme mit cloudautomation-support@kyndryl.com bereitgestellt werden."
+            }]
+          }]
+        },
+        "Docs" : {
+          "Introduction" : "",
+          "Docs" : []
+        }
+      }
+    },
+    "settings" : {
+      "Consultation" : null,
+      "Quotation" : null,
+      "Contacts" : null
+    },
+    "Classifications" : null
+  },
+  "packages" : [],
+  "serviceElements" : [
+  {
+    "ServiceItemId" : "62ed49b48e44f08f1e35ba41",
+    "ServiceId" : "",
+    "ServiceItemName" : "Certified Container Image Bundle",
+    "ProvisioningRefId" : "",
+    "OrderRecurringCharge" : 0,
+    "Description" : null,
+    "Status" : "",
+    "ServiceItemClassification" : "",
+    "Template" : {
+      "GlobalUniqueKeys" : null,
+      "StatusMap" : [],
+      "ConfigGroups" : [
+      {
+        "ConfigGroupName" : "General",
+        "Description" : "",
+        "ForAction" : null,
+        "RequiredConfig" : null,
+        "ConfigGroupPageIndex" : null,
+        "StepName" : null,
+        "UiTags" : null,
+        "IsInternal" : null,
+        "Configs" : [
+        {
+          "ConfigId" : "",
+          "ConfigName" : "Name",
+          "ConfigDescription" : null,
+          "InputType" : "",
+          "RepeatedId" : null,
+          "IsRequired" : false,
+          "IsEditable" : false,
+          "IsModifiable" : null,
+          "HideExpression" : null,
+          "UiTags" : null,
+          "Default" : null,
+          "SelectValues" : null,
+          "FreeTextValidation" : null,
+          "ConfigDateTimeInput" : null,
+          "NumberInputRange" : null,
+          "TranslationId" : "TmFtZQ=="
+        }],
+        "RepeatedConfigs" : [],
+        "TranslationId" : "R2VuZXJhbA=="
+      }]
+    },
+    "ServiceInfo" : {
+      "GlobalUniqueKeys" : null,
+      "StatusMap" : [],
+      "ConfigGroups" : [
+      {
+        "ConfigGroupName" : "CCaaS Images",
+        "Description" : "",
+        "ForAction" : null,
+        "RequiredConfig" : null,
+        "ConfigGroupPageIndex" : null,
+        "StepName" : null,
+        "UiTags" : null,
+        "IsInternal" : null,
+        "Configs" : [
+        {
+          "ConfigId" : "",
+          "ConfigName" : "Image 1",
+          "ConfigDescription" : null,
+          "InputType" : "",
+          "RepeatedId" : null,
+          "IsRequired" : false,
+          "IsEditable" : false,
+          "IsModifiable" : null,
+          "HideExpression" : null,
+          "UiTags" : null,
+          "Default" : null,
+          "SelectValues" : null,
+          "FreeTextValidation" : null,
+          "ConfigDateTimeInput" : null,
+          "NumberInputRange" : null,
+          "TranslationId" : "SW1hZ2UgMQ=="
+        },
+
+        {
+          "ConfigId" : "",
+          "ConfigName" : "Image 1 Repo Digests",
+          "ConfigDescription" : null,
+          "InputType" : "",
+          "RepeatedId" : null,
+          "IsRequired" : false,
+          "IsEditable" : false,
+          "IsModifiable" : null,
+          "HideExpression" : null,
+          "UiTags" : null,
+          "Default" : null,
+          "SelectValues" : null,
+          "FreeTextValidation" : null,
+          "ConfigDateTimeInput" : null,
+          "NumberInputRange" : null,
+          "TranslationId" : "SW1hZ2UgMSBSZXBvIERpZ2VzdHM="
+        },
+
+        {
+          "ConfigId" : "",
+          "ConfigName" : "Image 2",
+          "ConfigDescription" : null,
+          "InputType" : "",
+          "RepeatedId" : null,
+          "IsRequired" : false,
+          "IsEditable" : false,
+          "IsModifiable" : null,
+          "HideExpression" : null,
+          "UiTags" : null,
+          "Default" : null,
+          "SelectValues" : null,
+          "FreeTextValidation" : null,
+          "ConfigDateTimeInput" : null,
+          "NumberInputRange" : null,
+          "TranslationId" : "SW1hZ2UgMg=="
+        },
+
+        {
+          "ConfigId" : "",
+          "ConfigName" : "Image 2 Repo Digests",
+          "ConfigDescription" : null,
+          "InputType" : "",
+          "RepeatedId" : null,
+          "IsRequired" : false,
+          "IsEditable" : false,
+          "IsModifiable" : null,
+          "HideExpression" : null,
+          "UiTags" : null,
+          "Default" : null,
+          "SelectValues" : null,
+          "FreeTextValidation" : null,
+          "ConfigDateTimeInput" : null,
+          "NumberInputRange" : null,
+          "TranslationId" : "SW1hZ2UgMiBSZXBvIERpZ2VzdHM="
+        },
+
+        {
+          "ConfigId" : "",
+          "ConfigName" : "Image 3",
+          "ConfigDescription" : null,
+          "InputType" : "",
+          "RepeatedId" : null,
+          "IsRequired" : false,
+          "IsEditable" : false,
+          "IsModifiable" : null,
+          "HideExpression" : null,
+          "UiTags" : null,
+          "Default" : null,
+          "SelectValues" : null,
+          "FreeTextValidation" : null,
+          "ConfigDateTimeInput" : null,
+          "NumberInputRange" : null,
+          "TranslationId" : "SW1hZ2UgMw=="
+        },
+
+        {
+          "ConfigId" : "",
+          "ConfigName" : "Image 2 Repo Digests",
+          "ConfigDescription" : null,
+          "InputType" : "",
+          "RepeatedId" : null,
+          "IsRequired" : false,
+          "IsEditable" : false,
+          "IsModifiable" : null,
+          "HideExpression" : null,
+          "UiTags" : null,
+          "Default" : null,
+          "SelectValues" : null,
+          "FreeTextValidation" : null,
+          "ConfigDateTimeInput" : null,
+          "NumberInputRange" : null,
+          "TranslationId" : "SW1hZ2UgMiBSZXBvIERpZ2VzdHM="
+        }],
+        "RepeatedConfigs" : [],
+        "TranslationId" : "Q0NhYVMgSW1hZ2Vz"
+      }]
+    }
+  }],
+  "tarConfigs" : [
+  {
+    "TarConfigId" : "6478a449dbbfd1b2d0a64cf0",
+    "ServiceId" : "",
+    "Name" : "",
+    "Type" : "",
+    "SubType" : "",
+    "Status" : "",
+    "Template" : {
+      "GlobalUniqueKeys" : null,
+      "StatusMap" : [],
+      "ConfigGroups" : []
+    },
+    "Actions" : [],
+    "ServiceInfo" : null,
+    "ContributionsConfig" : null
+  }]
+}
