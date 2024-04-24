@@ -1,0 +1,376 @@
+{
+"smartling" : {
+"translate_paths": [{
+"path": "*/serviceName",
+"key": "*/serviceName"
+},
+{
+"path": "*/Description",
+"key": "*/Description"
+},
+{
+"path": "*/GroupTitle",
+"key": "*/GroupTitle"
+},
+{
+"path": "*/Question",
+"key": "*/Question"
+},
+{
+"path": "*/Answer1",
+"key": "*/Answer1"
+}],
+"variants_enabled" : "true"
+},
+"service": {
+"serviceId": "62e29ebfa572fb19fb109f10",
+"serviceName": "Certified Container as a Service (CCaaS)",
+"AccountId": "",
+"RefIdCode": "",
+"AccountName": "",
+"LogoRef": null,
+"catalog": {
+"summary": {
+"Description": "Cloud-based service that provides security-certified container images",
+"Company": "",
+"Classifications": null
+},
+"details": {
+"Overview": null,
+"Benefits": [],
+"CustomerStories": [],
+"Faqs": {
+"Introduction": "",
+"faqGroups": [
+{
+"GroupId": "632bc5bae07d8264521632ef",
+"ServiceId": "",
+"GroupSequence": 0,
+"GroupTitle": "Support",
+"Questions": [
+{
+"Question": "In case of any issues with my subscription, who would I need to contact?",
+"Answer": null,
+"Answer1": "For any issues or questions, send an email to cloudautomation-support@kyndryl.com."
+},
+{
+"Question": "What is the turnaround time for any queries and subscription issues?",
+"Answer": null,
+"Answer1": "Under normal circumstances, support will respond to issues within 24 hours Monday - Friday."
+}
+]
+},
+{
+"GroupId": "632be6ace07d8264521b016d",
+"ServiceId": "",
+"GroupSequence": 0,
+"GroupTitle": "Subsription Workflow",
+"Questions": [
+{
+"Question": "How does the subscription flow work and what would happen if I subscribe?",
+"Answer": null,
+"Answer1": "a. Client onboards/logins into Kyndryl Bridge portal\nb. Client clicks to subscribe to CCaaS from the Catalog.\nc. Client selects the Trial version subscription.\nd. Client clicks subscribe button.\ne. CCaaS team will connect with the Client to share the SOW for Trial version via email.\nf. Client shall accept the SOW in email.\ng. CCaaS Team shall send an email with a subscription successful message to Client.\nh. CCaaS Team will share Client respective Docker Hub account credentials (in separate emails for username and password) to Client. The Client can log in to the Docker Hub account and download the Certified Container images.\ni. After receiving the Docker Hub credentials from CCaaS team, Client can order Certified Container images through Kyndryl Bridge within the 90 days trial subscription period by clicking the order button.\nj. Client can order any number of times based on the business need"
+}
+]
+},
+{
+"GroupId": "632bc5bae07d8264521632e7",
+"ServiceId": "",
+"GroupSequence": 0,
+"GroupTitle": "Product Overview",
+"Questions": [
+{
+"Question": "What is CCaaS?",
+"Answer": null,
+"Answer1": "Certified Container as a Service (CCaaS) is a service to provide security-certified container images, which can be readily used by Clients for hosting their applications. These images are scanned using industry-accepted security scanning tools and are tested for dependencies, vulnerabilities, and code analysis.."
+},
+{
+"Question": "What is a Certified Container?",
+"Answer": null,
+"Answer1": "A Certified Container meets enterprise security and industry-standard criteria for packaging and deployment of containerized software along with container platform integrations. The certified containers are used by a development team as base images to build their application for deployment on any container platform."
+},
+{
+"Question": "Why are Certified Containers needed?",
+"Answer": null,
+"Answer1": "Certified Containers are needed for many reasons, such as:\na.All components come from a trusted source\nb.Platform packages have not been tampered with\nc.Container image is free of known vulnerabilities\nd.Container is compatible across Kubernetes platforms\ne.Provides regular updates \u0026 support for the complete stack"
+},
+{
+"Question": "Why are Kyndryl Certified Containers needed?",
+"Answer": null,
+"Answer1": "The key benefits of Kyndryl Certified Containers include the following:\nFollows Red Hat certification process\nProvides a standard \u0026 consistent automated process to build and validate certified images reducing the time to deliver\nStandard charts are provided to deploy and conform to integration practices (security, logging, metrics)\nIt adapts to custom Client specifications (tech specs, tool integrations)."
+},
+{
+"Question": "What is the difference between Basic containers and Kyndryl Certified Containers?",
+"Answer": null,
+"Answer1": "In Basic containers, the application developer manages and spends efforts on management tools, App runtimes, App dependencies, and Helm charts along with Application Code.\nWhereas in Kyndryl Certified Containers, the application developer only manages and concentrates on the application code. The in-scope features of this trial version, are configured by Kyndryl."
+},
+{
+"Question": "What are the expected net savings per a Kyndryl Certified Container?",
+"Answer": null,
+"Answer1": "Based on the current estimates, the Clients can approximately save up to 166.32% of net savings per Kyndryl Certified Container in comparison with In-house development."
+},
+{
+"Question": "Which Certified Containers are delivered currently as part of CCaaS?",
+"Answer": null,
+"Answer1": "a.Python v3.0 on RedHat base Image ubi version 8\nb.Tomcat 9 + OpenJDK v13 on RedHat base Image ubi version\nc.Nodejs v10 based on RedHat base Image ubi version 8"
+},
+{
+"Question": "Which Certified Containers are in the future pipeline to be delivered as part of CCaaS?",
+"Answer": null,
+"Answer1": "a.PostgreSQL\nb.Apache Tomcat v9\nc.WebSphere Liberty\nd.IBM Node.js\ne.Apache Cassandra v3.10"
+},
+{
+"Question": "Who would benefit the most from using CCaaS?",
+"Answer": null,
+"Answer1": "CCaaS was designed with two personas in mind: Developers and System Administrators\na.CCaaS will make the developer’s life easy by eliminating the effort to build and manage the security-certified container images. With CCaaS, they can concentrate only on coding.\nb.Whereas System Administrators who have the time-laden responsibility to maintain these images and deploy applications on them, can benefit from the continuous supply of the updated security-certified images through CCaaS. This would help to free up their time to look at automating other important managed services and SRE activities."
+},
+{
+"Question": "How does CCaaS benefit a Client?",
+"Answer": null,
+"Answer1": "Clients can spend a significant amount of time building security-certified images to host their applications, instead of working on the actual development of code and integrations. CaaS would expedite our Client’s journey to the cloud by providing standard security-certified images, thus freeing up the developer’s time to concentrate on the coding. Organizations or enterprises would benefit from ensuring applications are built using trusted and secure base images and practices."
+},
+{
+"Question": "What is the core of CCaaS?",
+"Answer": null,
+"Answer1": "The core of CaaS is a DevSecOps pipeline built using industry-standard DevOps tooling. This pipeline is responsible for building the container images after the code is scanned and tested for any vulnerabilities and security defects. Once the images are built, they are rescanned for any vulnerabilities. This pipeline is exposed using an API interface that can be readily consumed by any REST API engine. "
+},
+{
+"Question": "How frequently images will be updated?",
+"Answer": null,
+"Answer1": "For Trial/Standard subscription, all three types of Certified Container Images will be updated:,\na. Whenever any new vulnerability(s) is/are identified\nb. Whenever a new base image version is released, and\nc. Whenever there is a new minor release for installed applications; for example, Tomcat, JDK\nFor Enterprise and Premium versions of Certified Container Images,\na. Based on Client requirement."
+},
+{
+"Question": "What happens when a vulnerability is reported by a Client?",
+"Answer": null,
+"Answer1": "a. Information shall be received from the Client\nb. Evaluations shall be done on the vulnerability reported \nc. Post evaluation, if appropriate, appropriate remediations shall be performed \nd. Finally, newer images shall be provided to the Client"
+},
+{
+"Question": "How can the Client see the reports of the security scans?",
+"Answer": null,
+"Answer1": "Currently, the document that captures the security scans shall be sent via email to the Client after ordering the Certified Container image upon Client’s specific request."
+},
+{
+"Question": "What documents would I get as part of my CCaaS subscription and order, and how do I receive them?",
+"Answer": null,
+"Answer1": "A Statement of Work (SOW) will be provided to the Client for review and acceptance via email."
+},
+{
+"Question": "Can I get customized Certified Container Images based on my need?",
+"Answer": null,
+"Answer1": "Yes. Custom certified images can be provided by contacting cloudautomation-support@kyndryl.com"
+}
+]
+}
+]
+},
+"Docs": {
+"Introduction": "",
+"Docs": []
+}
+}
+},
+"settings": {
+"Consultation": null,
+"Quotation": null,
+"Contacts": null
+},
+"Classifications": null
+},
+"packages": [],
+"serviceElements": [
+{
+"ServiceItemId": "62ed49b48e44f08f1e35ba41",
+"ServiceId": "",
+"ServiceItemName": "Certified Container Image Bundle",
+"ProvisioningRefId": "",
+"OrderRecurringCharge": 0,
+"Description": null,
+"Status": "",
+"ServiceItemClassification": "",
+"Template": {
+"GlobalUniqueKeys": null,
+"StatusMap": [],
+"ConfigGroups": [
+{
+"ConfigGroupName": "General",
+"Description": "",
+"ForAction": null,
+"RequiredConfig": null,
+"ConfigGroupPageIndex": null,
+"StepName": null,
+"UiTags": null,
+"IsInternal": null,
+"Configs": [
+{
+"ConfigId": "",
+"ConfigName": "Name",
+"ConfigDescription": null,
+"InputType": "",
+"RepeatedId": null,
+"IsRequired": false,
+"IsEditable": false,
+"IsModifiable": null,
+"HideExpression": null,
+"UiTags": null,
+"Default": null,
+"SelectValues": null,
+"FreeTextValidation": null,
+"ConfigDateTimeInput": null,
+"NumberInputRange": null,
+"TranslationId": "TmFtZQ=="
+}
+],
+"RepeatedConfigs": [],
+"TranslationId": "R2VuZXJhbA=="
+}
+]
+},
+"ServiceInfo": {
+"GlobalUniqueKeys": null,
+"StatusMap": [],
+"ConfigGroups": [
+{
+"ConfigGroupName": "CCaaS Images",
+"Description": "",
+"ForAction": null,
+"RequiredConfig": null,
+"ConfigGroupPageIndex": null,
+"StepName": null,
+"UiTags": null,
+"IsInternal": null,
+"Configs": [
+{
+"ConfigId": "",
+"ConfigName": "Image 1",
+"ConfigDescription": null,
+"InputType": "",
+"RepeatedId": null,
+"IsRequired": false,
+"IsEditable": false,
+"IsModifiable": null,
+"HideExpression": null,
+"UiTags": null,
+"Default": null,
+"SelectValues": null,
+"FreeTextValidation": null,
+"ConfigDateTimeInput": null,
+"NumberInputRange": null,
+"TranslationId": "SW1hZ2UgMQ=="
+},
+{
+"ConfigId": "",
+"ConfigName": "Image 1 Repo Digests",
+"ConfigDescription": null,
+"InputType": "",
+"RepeatedId": null,
+"IsRequired": false,
+"IsEditable": false,
+"IsModifiable": null,
+"HideExpression": null,
+"UiTags": null,
+"Default": null,
+"SelectValues": null,
+"FreeTextValidation": null,
+"ConfigDateTimeInput": null,
+"NumberInputRange": null,
+"TranslationId": "SW1hZ2UgMSBSZXBvIERpZ2VzdHM="
+},
+{
+"ConfigId": "",
+"ConfigName": "Image 2",
+"ConfigDescription": null,
+"InputType": "",
+"RepeatedId": null,
+"IsRequired": false,
+"IsEditable": false,
+"IsModifiable": null,
+"HideExpression": null,
+"UiTags": null,
+"Default": null,
+"SelectValues": null,
+"FreeTextValidation": null,
+"ConfigDateTimeInput": null,
+"NumberInputRange": null,
+"TranslationId": "SW1hZ2UgMg=="
+},
+{
+"ConfigId": "",
+"ConfigName": "Image 2 Repo Digests",
+"ConfigDescription": null,
+"InputType": "",
+"RepeatedId": null,
+"IsRequired": false,
+"IsEditable": false,
+"IsModifiable": null,
+"HideExpression": null,
+"UiTags": null,
+"Default": null,
+"SelectValues": null,
+"FreeTextValidation": null,
+"ConfigDateTimeInput": null,
+"NumberInputRange": null,
+"TranslationId": "SW1hZ2UgMiBSZXBvIERpZ2VzdHM="
+},
+{
+"ConfigId": "",
+"ConfigName": "Image 3",
+"ConfigDescription": null,
+"InputType": "",
+"RepeatedId": null,
+"IsRequired": false,
+"IsEditable": false,
+"IsModifiable": null,
+"HideExpression": null,
+"UiTags": null,
+"Default": null,
+"SelectValues": null,
+"FreeTextValidation": null,
+"ConfigDateTimeInput": null,
+"NumberInputRange": null,
+"TranslationId": "SW1hZ2UgMw=="
+},
+{
+"ConfigId": "",
+"ConfigName": "Image 2 Repo Digests",
+"ConfigDescription": null,
+"InputType": "",
+"RepeatedId": null,
+"IsRequired": false,
+"IsEditable": false,
+"IsModifiable": null,
+"HideExpression": null,
+"UiTags": null,
+"Default": null,
+"SelectValues": null,
+"FreeTextValidation": null,
+"ConfigDateTimeInput": null,
+"NumberInputRange": null,
+"TranslationId": "SW1hZ2UgMiBSZXBvIERpZ2VzdHM="
+}
+],
+"RepeatedConfigs": [],
+"TranslationId": "Q0NhYVMgSW1hZ2Vz"
+}
+]
+}
+}
+],
+"tarConfigs": [
+{
+"TarConfigId": "6478a449dbbfd1b2d0a64cf0",
+"ServiceId": "",
+"Name": "",
+"Type": "",
+"SubType": "",
+"Status": "",
+"Template": {
+"GlobalUniqueKeys": null,
+"StatusMap": [],
+"ConfigGroups": []
+},
+"Actions": [],
+"ServiceInfo": null,
+"ContributionsConfig": null
+}
+]
+}
